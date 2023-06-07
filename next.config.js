@@ -4,3 +4,12 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  devIndicators: {
+    autoPrerender: false,
+  },
+  server: {
+    port: 2000,
+  },
+};
